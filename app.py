@@ -80,7 +80,7 @@ def process_alignment(api_key, media_path, transcript_text, mime_type):
     
     # 註：此處以官方最新支援多模態的 Pro 模型名稱為準。若未來有 gemini-3-pro-preview 則直接替換字串
     model = genai.GenerativeModel(
-        model_name='gemini-2.5-flash',
+        model_name='gemini-3.6-flash',
         system_instruction=system_instruction
     )
     
